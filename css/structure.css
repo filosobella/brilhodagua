@@ -1,0 +1,18 @@
+  @import url(fakeLoader.css); /** Loader **/
+  @import url(normalize.css); /** Normalize **/
+  @import url(fonts.css); /** Fontes de texto **/
+  @import url(main.css); /** Geral **/
+  @import url(header.css); /** Cabeçalho **/
+  @import url(destaques.css); /** Destaques **/
+  @import url(conteudo.css); /** Conteúdo **/
+  @import url(footer.css); /** Rodapé **/
+  @import url(header.css); /** Cabeçalho **/
+  @import url(forms.css); /** Formulários **/
+
+  @import url(fontello/fontello.css); /** Fontes de ícones **/
+  @import url(fontello/fontello-codes.css); /** Fontes de ícones **/
+  @import url(fontello/fontello-embedded.css); /** Fontes de ícones **/
+
+  @import url(slider/demo.css); /** Slider **/
+  @import url(slider/style.css);/** Slider **/
+  @import url(slider/custom.css); /** Slider **/

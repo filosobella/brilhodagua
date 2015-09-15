@@ -1,0 +1,513 @@
+    /* [init] BTN SLIDER */
+
+    .content_btn_slider {
+      text-align:center;
+      margin:30px 0 0 0;
+
+    }
+
+
+    .btn_slider {
+      -webkit-border-radius: 4;
+      -moz-border-radius: 4;
+      border-radius: 4px;
+      font-family: 'robotobold', sans-serif;
+      color: #ffffff;
+      font-size: 25px;
+      background-color: #35b59e;
+      width:100%;
+      padding: 20px;
+      text-decoration: none;
+
+    }
+
+    .btn_slider:hover {
+      border:2px solid #ffffff;
+      color:#ffffff;
+      background-color:transparent;
+      text-decoration: none;
+    }
+
+
+
+    /* [end] BTN SLIDER */
+
+
+
+    .content_btn_quemsomos {
+      text-align:center;
+      margin:0 auto;
+      padding:20px;
+    }
+
+
+    .btn_quemsomos {
+      -webkit-border-radius: 4;
+      -moz-border-radius: 4;
+      border-radius: 4px;
+      font-family: 'robotobold', sans-serif;
+      color: #ffffff;
+      font-size: 20px;
+      background-color: #35b59e;
+      padding: 25px 60px;
+      text-decoration: none;
+
+    }
+
+    .btn_quemsomos:hover {
+      background-color: #808080;
+      text-decoration: none;
+    }
+
+
+
+    /* [init] CONTATO */
+
+
+
+    .cd-form {
+      width: 90%;
+      max-width: 1366px;
+      margin: 50px 50px 0 50px;
+      font-family: 'robotoregular', sans-serif;
+    }
+
+    .cd-form::after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+    .cd-form fieldset {
+      /*  margin: 24px 0;*/
+    }
+    .cd-form legend {
+      font-family: 'robotobold', sans-serif;
+      color:#35b59e;
+      font-size: 20px;
+      text-align:left;
+    }
+    .cd-form div {
+      /* form element wrapper */
+      position: relative;
+      margin: 20px 0;
+    }
+    .cd-form h4, .cd-form .cd-label {
+      font-size: 14px;
+      font-weight: normal;
+      color: #808080;
+      font-family: 'robotoregular', sans-serif;
+      margin-bottom: 10px;
+    }
+    .cd-form .cd-label {
+      display: block;
+    }
+    .cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
+      font-size: 14px;
+      color: #565656;
+    }
+    .cd-form input[type="text"],
+    .cd-form input[type="email"],
+    .cd-form textarea,
+    .cd-form select,
+    .cd-form legend {
+      display: block;
+      width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+    }
+    .cd-form input[type="text"],
+    .cd-form input[type="email"],
+    .cd-form textarea,
+    .cd-form select {
+      /* general style for input elements */
+      padding: 12px;
+      border-bottom: 2px solid #35b59e;
+      border-top:1px solid #ededed;
+      border-left:1px solid #ededed;
+      border-right:1px solid #ededed;
+      background-color: #ffffff;
+      border-radius: .25em;
+
+    }
+    .cd-form input[type="text"]:focus,
+    .cd-form input[type="email"]:focus,
+    .cd-form textarea:focus,
+    .cd-form select:focus {
+      outline: none;
+      border:2px solid #ededed;
+
+    }
+    .cd-form .cd-select {
+      /* select element wapper */
+      position: relative;
+    }
+    .cd-form .cd-select::after {
+      /* arrow icon for select element */
+      content: '';
+      position: absolute;
+      z-index: 1;
+      right: 16px;
+      top: 50%;
+      margin-top: -8px;
+      display: block;
+      width: 16px;
+      height: 16px;
+      background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+      pointer-events: none;
+    }
+    .cd-form select {
+
+      cursor: pointer;
+    }
+    .cd-form select::-ms-expand {
+      display: none;
+    }
+    .cd-form .cd-form-list {
+      margin-top: 16px;
+      margin-left: -40px;
+    }
+    .cd-form .cd-form-list::after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+    .cd-form .cd-form-list li {
+      /* wrapper for radio and checkbox input types */
+      display: inline-block;
+      position: relative;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      margin: 0 26px 16px 0;
+      float: left;
+    }
+    .cd-form input[type=radio],
+    .cd-form input[type=checkbox] {
+      /* hide original check and radio buttons */
+      position: absolute;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      z-index: 2;
+    }
+    .cd-form input[type="radio"] + label,
+    .cd-form input[type="checkbox"] + label {
+      padding-left: 24px;
+    }
+    .cd-form input[type="radio"] + label::before,
+    .cd-form input[type="radio"] + label::after,
+    .cd-form input[type="checkbox"] + label::before,
+    .cd-form input[type="checkbox"] + label::after {
+      /* custom radio and check boxes */
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -8px;
+      width: 16px;
+      height: 16px;
+    }
+    .cd-form input[type="radio"] + label::before,
+    .cd-form input[type="checkbox"] + label::before {
+      border: 1px solid #35b59e;
+      background: #ffffff;
+
+    }
+    .cd-form input[type="radio"] + label::before,
+    .cd-form input[type="radio"] + label::after {
+      border-radius: 50%;
+    }
+    .cd-form input[type="checkbox"] + label::before,
+    .cd-form input[type="checkbox"] + label::after {
+      border-radius: .25em;
+    }
+    .cd-form input[type="radio"] + label::after,
+    .cd-form input[type="checkbox"] + label::after {
+      background-color: #35b59e;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: none;
+    }
+    .cd-form input[type="radio"] + label::after {
+      /* custom image for radio button */
+      background-image: url("../img/cd-icon-radio.svg");
+    }
+    .cd-form input[type="checkbox"] + label::after {
+      /* custom image for checkbox */
+      background-image: url("../img/cd-icon-check.svg");
+    }
+    .cd-form input[type="radio"]:focus + label::before,
+    .cd-form input[type="checkbox"]:focus + label::before {
+      /* add focus effect for radio and check buttons */
+
+    }
+    .cd-form input[type="radio"]:checked + label::after,
+    .cd-form input[type="checkbox"]:checked + label::after {
+      display: block;
+    }
+    .cd-form input[type="radio"]:checked + label::before,
+    .cd-form input[type="radio"]:checked + label::after,
+    .cd-form input[type="checkbox"]:checked + label::before,
+    .cd-form input[type="checkbox"]:checked + label::after {
+      -webkit-animation: cd-bounce 0.3s;
+      -moz-animation: cd-bounce 0.3s;
+      animation: cd-bounce 0.3s;
+    }
+    .cd-form textarea {
+      min-height: 200px;
+      resize: vertical;
+      overflow: auto;
+    }
+    .cd-form input[type="submit"] {
+      /* button style */
+      border: none;
+      background: #35b59e;
+      border-radius: .25em;
+      padding: 16px 60px;
+      font-family: 'robotobold', sans-serif;
+      color: #ffffff;
+      font-size: 20px;
+      /*float: right;*/
+      cursor: pointer;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+    }
+    .no-touch .cd-form input[type="submit"]:hover {
+      background: #808080;
+    }
+    .cd-form input[type="submit"]:focus {
+      outline: none;
+      background: #35b59e;
+    }
+    .cd-form input[type="submit"]:active {
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -o-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    .cd-form [required] {
+      background: url("../img/cd-required.svg") no-repeat top right;
+    }
+    .cd-form .error-message p {
+      background: #35b59e;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      border-radius: .25em;
+      padding: 16px;
+    }
+    .cd-form .error {
+      border-color: #35b59e !important;
+    }
+
+    /* --------------------------------
+
+    Custom icons
+
+    -------------------------------- */
+    .cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
+      padding-left: 54px !important;
+    }
+    .cd-form .user {
+      background: url("../img/cd-icon-user.svg") no-repeat 16px center;
+    }
+    .cd-form [required].user {
+      background: url("../img/cd-icon-user.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+    }
+    .cd-form .phone {
+      background: url("../img/cd-icon-telephone.svg") no-repeat 16px center;
+    }
+    .cd-form [required].phone {
+      background: url("../img/cd-icon-telephone.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+    }
+    .cd-form .email {
+      background: url("../img/cd-icon-email.svg") no-repeat 16px center;
+    }
+    .cd-form [required].email {
+      background: url("../img/cd-icon-email.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+    }
+
+    .cd-form .message {
+      background: url("../img/cd-icon-message.svg") no-repeat 16px 16px;
+    }
+    .cd-form [required].message {
+      background: url("../img/cd-icon-message.svg") no-repeat 16px 16px, url("../img/cd-required.svg") no-repeat top right;
+    }
+
+    /* --------------------------------
+
+    FLoating labels
+
+    -------------------------------- */
+    .js .floating-labels div {
+      margin: 28px 0;
+    }
+    .js .floating-labels .cd-label {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      font-size: 1.6rem;
+      cursor: text;
+      -webkit-transition: top 0.2s, left 0.2s, font-size 0.2s;
+      -moz-transition: top 0.2s, left 0.2s, font-size 0.2s;
+      transition: top 0.2s, left 0.2s, font-size 0.2s;
+    }
+    .js .floating-labels .icon .cd-label {
+      left: 56px;
+      top: 14px;
+    }
+    .js .floating-labels .cd-label.float {
+      /* move label out the input field */
+      font-size: 1.2rem;
+      top: -16px;
+      left: 0 !important;
+    }
+
+    /* [end] CONTATO */
+
+
+
+
+    @media screen and (max-width: 984px){
+
+      .cd-form {
+        width: 87%;
+      }
+
+
+      .cd-form div {
+        /* form element wrapper */
+        margin: 32px 0;
+      }
+      .cd-form legend + div {
+        /* reduce margin-top for first form element after the legend */
+        margin-top: 20px;
+      }
+      .cd-form h4, .cd-form .cd-label {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .cd-form input[type="text"],
+      .cd-form input[type="email"],
+      .cd-form textarea,
+      .cd-form select {
+        padding: 16px;
+      }
+    }
+
+    @-webkit-keyframes cd-bounce {
+      0%, 100% {
+        -webkit-transform: scale(1);
+      }
+      50% {
+        -webkit-transform: scale(0.8);
+      }
+    }
+    @-moz-keyframes cd-bounce {
+      0%, 100% {
+        -moz-transform: scale(1);
+      }
+      50% {
+        -moz-transform: scale(0.8);
+      }
+    }
+    @keyframes cd-bounce {
+      0%, 100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+      }
+      50% {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+      }
+    }
+
+    @media screen and (max-width: 767px){
+      .cd-form {
+        width: 85%;
+      }
+    }
+
+    @media screen and (max-width: 719px){
+      .cd-form {
+        width: 85%;
+      }
+    }
+
+
+    @media screen and (max-width: 600px){
+
+      .btn_quemsomos, .btn_slider {
+        width: 70%;
+        font-size: 12px;
+      }
+
+    }
+
+
+    @media screen and (max-width: 539px){
+      .cd-form {
+        width: 80%;
+
+      }
+
+      .btn_quemsomos, .btn_slider {
+        width: 70%;
+        font-size: 12px;
+      }
+
+      .js .floating-labels legend + div {
+        /* reduce margin-top for first form element after the legend */
+        margin-top: 16px;
+      }
+      .js .floating-labels .cd-label {
+        top: 20px;
+      }
+
+    }
+
+      @media screen and (max-width: 479px){
+        .cd-form {
+          width: 75%;
+
+        }
+
+        .btn_quemsomos, .btn_slider {
+          width: 70%;
+          font-size: 12px;
+        }
+
+      }
+
+      @media only screen and (min-width:300px) and (max-width:478px) {
+        .btn_quemsomos, .btn_slider {
+          width: 100%;
+          font-size: 13px;
+        }
+      }
