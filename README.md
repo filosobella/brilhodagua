@@ -8,4 +8,5 @@ Agradecimentos:
 Luciano Gael, pela força e Smantha Cunha, parceira de TCC e responsável por toda a documentação do website.
 
 Projeto completo: https://www.behance.net/gallery/29031529/Escola-de-Natacao-Brilho-Dagua-TCC
+
 Veja: http://filosobella.github.io/brilhodagua
